@@ -1,6 +1,6 @@
 
 
-const Languages = () => {
+const Languages = ({name, img, options}) => {
   return (
     <div>Languages</div>
   )
