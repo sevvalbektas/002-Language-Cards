@@ -18,7 +18,7 @@ const Languages = ({name, img, options}) => {
 
         <ol>
             {options.map((item) => {
-                return <li className=" h5 text-start"className=" h5 text-start">{item}</li>
+                return <li className=" h5 text-start">{item}</li>
             })}
         </ol>
     </Container>
