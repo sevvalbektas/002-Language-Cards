@@ -1,10 +1,14 @@
+import Card from "./components/Card";
+import Header from "./components/Header";
 
 
 function App() {
   return (
-    <div>
-      <h1>Languge Cards</h1>
-    </div>
+    <>
+      <Header />
+      <Card />
+      
+    </>
   );
 }
 
